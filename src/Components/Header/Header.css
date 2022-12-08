@@ -1,0 +1,121 @@
+.header-section{
+    background-color: #787070;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 100;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.naivations{
+    display: flex;
+    gap: 20px;
+    color: #011149;
+    align-items: center;
+}
+.naivations ul{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    align-items: center;
+    top: -5px;
+}
+.naivations li{
+    list-style-type: none;
+}
+.naivations li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'poppins';
+    color: #fff;
+}
+.naivations li a:hover{
+    color: #011149;
+    font-weight: 500;
+}
+.search-box{
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 3px;    
+    display: flex;
+    align-items: center;   
+    top: -3px; 
+}
+.search-box input{
+    max-width: 150px;
+    border: 0px;
+    background-color: rgb(217 202 189 / 32%);
+    padding: 3px;
+    color: #243f89;
+    outline: 0;
+    font-weight: 500;
+}
+.search-box i{
+    font-size: 18px;
+    background-color: #e26b13;
+    padding: 4px;
+    border-left: 2px solid #000;
+    cursor: pointer;
+    color: #fff;
+}
+.menu-btn i{
+    color: #000;
+    font-size: 22px;
+}
+.menu-btn{
+    display: none;
+}
+#click{
+    display: none;
+}
+.invisible-logo{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .naivations ul{
+        display: none;
+    }
+    .invisible-logo{
+        display: block;
+    }
+    .menu-btn{
+        display: block;
+    }    
+    .naivations ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 64px;
+        left: -100%;
+        background-color: #000;
+        width:100%;
+        height: 100%;
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+    .open-menu ul{
+        left: 0% !important;
+    }
+    .naivations li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .naivations li a{
+        font-size: 22px;
+        color: #fff;
+    }
+}
+@media (max-width:500px) {
+    .header{
+        width: 90%;
+        height: 70px;
+    }
+}

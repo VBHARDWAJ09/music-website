@@ -1,0 +1,16 @@
+.not-found{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+}
+.image-box img{
+    position: relative;
+    width: 100%;
+}
+.not-found h4{
+    position: relative;
+    font-size: 40px;
+    bottom: 100px;
+    color: #b9c345;
+}

@@ -1,0 +1,74 @@
+.about-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e3f4f6;
+}
+.main h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.intro-section{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.intro-card{
+    max-width: 400px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+    position: relative;
+    margin-bottom: 70px;
+}
+.intro-card img{
+    width: 100%;
+}
+.intro-content{
+    position:absolute;
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    left: 10%;
+    top: 85%;
+    padding: 20px;
+    gap: 15px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    color: #2f4d5a;
+    transform: 0.5s;
+    border-radius: 10px;
+}
+.intro-content h5{
+    font-family: cursive;
+    font-size: 18px;
+    position: relative;
+}
+.intro-content h5::after{
+    position:absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #b1cbd7;
+    bottom: -8px;
+    left: calc(50% - 25px);
+}
+.intro-content h6{
+    font-size: 14px;
+}
+.social-logo{
+    display: none;
+}
+.social-logo i{
+    font-size: 22px;
+}
+.social-logo i:hover{
+    font-size: 22px;
+    color:#ff0000;
+}
+.intro-card:hover .social-logo{
+    display: flex;
+    gap: 10px;
+}
