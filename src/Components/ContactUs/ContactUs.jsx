@@ -32,7 +32,7 @@ const ContactUs = () => {
                 </div>
                 <div className="contact-boxes">
                     <div className="card-box">
-                    <div style={{width: "100%"}}><iframe width="100%" height="400" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=27.2140940,%2078.0289733+(Vishal%20Bhardwaj)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe></div>
+                    <div style={{width: "100%"}}><iframe title="iframe" width="100%" height="400" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=27.2140940,%2078.0289733+(Vishal%20Bhardwaj)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe></div>
                     </div>
                     <div className="card-box">
                         <Form/>

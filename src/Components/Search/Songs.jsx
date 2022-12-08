@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import './Search.css';
 import Song from './Song';
 
 const Songs = ({ searchedData,setDataFound }) => {
-    const [songs, setSongs] = useState([])
+    const [songs, setSongs] = useState(searchedData.songs)
 
-    useEffect(() => {
-        setSongs(searchedData.songs)
-    }, [])
 
 
     return (

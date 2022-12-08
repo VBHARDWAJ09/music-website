@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
           <p>
             Designed by 
-            <a href="https://github.com/VBHARDWAJ09" target={"_blank"}> Vishal Bhardwaj</a>
+            <a href="https://github.com/VBHARDWAJ09" target={"_blank"} rel="noreferrer"> Vishal Bhardwaj</a>
           </p>
         </div>
       </div>

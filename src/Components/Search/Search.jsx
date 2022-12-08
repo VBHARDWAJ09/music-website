@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { SearchArtist } from '../API/API';
 import './Search.css';
 import Lottie from "react-lottie-player";
@@ -28,7 +28,7 @@ const Search = () => {
     }
 
     const handleSubmit = (event) => {
-        if (event.keyCode == 13) {
+        if (event.keyCode === 13) {
             searchThisText();
         }
     }

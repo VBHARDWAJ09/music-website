@@ -11,14 +11,14 @@ const MusicPlayer = ({ data }) => {
     useEffect(() => {
         if (play) {
             setTimeout(() => {
-                if (timer < data.duration) {
-                    setTimer(timer + 1)
-                } else if (timer === data.duration) {
-                    setPlay(false)
-                }
+                    if (timer < data.duration) {
+                        setTimer(timer + 1)
+                    } else if (timer === data.duration) {
+                        setPlay(false)
+                    }
             }, 1000)
         }
-    }, [timer, play])
+    }, [timer, play,data.duration])
 
     const handlePausePlay = () => {
         if (timer === data.duration) {

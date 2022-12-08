@@ -1,9 +1,5 @@
 import axios from 'axios'
-const URL = `https://youtube-music1.p.rapidapi.com/v2/search`;
-const headers = {
-    'X-RapidAPI-Key': '25ad1acd4bmsh231760e1d383b49p193ebajsnea5fa13b96df',
-    'X-RapidAPI-Host': 'youtube-music1.p.rapidapi.com'
-}
+
 
 export const SearchArtist = async (data) => {
 

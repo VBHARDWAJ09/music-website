@@ -22,10 +22,10 @@ const About = () => {
                             <h5>Vishal Bhardwaj</h5>
                             <h6>Front End Developer</h6>
                             <div className="social-logo">
-                                <a href='https://twitter.com/VBHARDWAJ_09' target={"_blank"}><i className="fa-brands fa-twitter"></i></a>
-                                <a href='https://www.facebook.com/profile.php?id=100029196540507' target={"_blank"}><i className="fa-brands fa-facebook"></i></a>
-                                <a href='https://www.instagram.com/vbhardwaj09/' target={"_blank"}><i className="fa-brands fa-instagram"></i></a>
-                                <a href='https://www.linkedin.com/in/vishal-bhardwaj-943420208/' target={"_blank"}><i className="fa-brands fa-linkedin"></i></a>
+                                <a href='https://twitter.com/VBHARDWAJ_09' target={"_blank"} rel='noreferrer'><i className="fa-brands fa-twitter"></i></a>
+                                <a href='https://www.facebook.com/profile.php?id=100029196540507' rel='noreferrer' target={"_blank"}><i className="fa-brands fa-facebook"></i></a>
+                                <a href='https://www.instagram.com/vbhardwaj09/' target={"_blank"} rel='noreferrer'><i className="fa-brands fa-instagram"></i></a>
+                                <a href='https://www.linkedin.com/in/vishal-bhardwaj-943420208/' rel='noreferrer' target={"_blank"}><i className="fa-brands fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>

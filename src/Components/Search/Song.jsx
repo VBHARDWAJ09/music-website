@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Downloading, DownloadSong, getAlbum, getArtist } from '../API/API';
+import { DownloadSong, getAlbum, getArtist } from '../API/API';
 import './Search.css';
 import Lottie from "react-lottie-player";
 import loader from '../../Icons/download.json';
@@ -18,8 +18,10 @@ const Song = ({ data, setSongs }) => {
             var sec = data.duration - Math.floor(data.duration / 60) * 60
             sec = sec < 10 ? '0' + sec : sec;
             setSongTime({ ...songTime, min: min, sec: sec })
+        }else{
+            setSongTime({...songTime,min:"",sec:""})
         }
-    }, [])
+    }, [data.duration])
 
     const DownloadThisSong = async (id) => {
         setLoading(true)
